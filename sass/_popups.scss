@@ -1,0 +1,35 @@
+.popups,
+.dropdown-content {
+    width: 200px;
+    max-height: 500px;
+    overflow-y: auto;
+    background: #fff;
+    @extend .z-depth-1;
+    margin: 0px;
+    padding: 20px 10px;
+    position: absolute;
+    top: auto;
+    left: auto;
+    opacity: 0;
+    z-index: 2;
+
+        li {
+            padding: 8px 5px;
+            border-bottom: #ccc solid 1px;
+            
+            &:hover {
+                background: #f9f9f9;
+            }
+            
+            &:last-child {
+                border: none;
+            }
+        }
+}
+
+body.community-content .community-content {
+    opacity: 1;
+    width: 300px;
+    top: 45px;
+    right: 73px;
+}

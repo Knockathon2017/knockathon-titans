@@ -1,0 +1,32 @@
+@mixin ellipsis(){
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+} //ellipses
+
+@mixin width-height-auto(){
+    @include size(auto);
+}
+
+@mixin size($width, $height: $width) {
+      width: $width;
+      height: $height;
+}
+
+@mixin svg() {
+    width: 25px;
+    height: 25px;
+    fill: none;
+    stroke: #fff;
+    
+    &:hover {
+        stroke: #fff;
+        fill: rgba(255, 234, 0, 1);
+    }
+}
+
+@mixin box-shadow-2($args1, $args2) {
+    -webkit-box-shadow: $args1, $args2;
+    -moz-box-shadow: $args1, $args2;
+    box-shadow: $args1, $args2;
+}
