@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthyIndia", "HealthyIndia\HealthyIndia.csproj", "{F0C8D398-15B9-4EC7-8142-0EBA588EEE9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoServices", "MongoServices\MongoServices.csproj", "{69B4CB56-3AC9-4C4E-AA87-392FDFAA94E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthyIndia.Data", "HealthyIndia.Data\HealthyIndia.Data.csproj", "{5CEDF3C0-ACD5-4D0A-9A2F-2E75F56F9D1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthyIndiaWeb", "HealthyIndiaWeb\HealthyIndiaWeb.csproj", "{37188ADC-0AB7-4D07-927A-6151EEDB81EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthyIndiaWeb.Tests", "HealthyIndiaWeb.Tests\HealthyIndiaWeb.Tests.csproj", "{779CF2F3-3D79-4AEA-BBCE-7D45947E2258}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthyIndia.Web", "MvcApplication1\HealthyIndia.Web.csproj", "{59990E7C-0A04-4441-A291-895FECB2CC27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0C8D398-15B9-4EC7-8142-0EBA588EEE9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0C8D398-15B9-4EC7-8142-0EBA588EEE9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0C8D398-15B9-4EC7-8142-0EBA588EEE9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0C8D398-15B9-4EC7-8142-0EBA588EEE9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69B4CB56-3AC9-4C4E-AA87-392FDFAA94E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69B4CB56-3AC9-4C4E-AA87-392FDFAA94E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69B4CB56-3AC9-4C4E-AA87-392FDFAA94E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69B4CB56-3AC9-4C4E-AA87-392FDFAA94E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CEDF3C0-ACD5-4D0A-9A2F-2E75F56F9D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CEDF3C0-ACD5-4D0A-9A2F-2E75F56F9D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CEDF3C0-ACD5-4D0A-9A2F-2E75F56F9D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CEDF3C0-ACD5-4D0A-9A2F-2E75F56F9D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37188ADC-0AB7-4D07-927A-6151EEDB81EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37188ADC-0AB7-4D07-927A-6151EEDB81EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37188ADC-0AB7-4D07-927A-6151EEDB81EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37188ADC-0AB7-4D07-927A-6151EEDB81EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{779CF2F3-3D79-4AEA-BBCE-7D45947E2258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{779CF2F3-3D79-4AEA-BBCE-7D45947E2258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{779CF2F3-3D79-4AEA-BBCE-7D45947E2258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{779CF2F3-3D79-4AEA-BBCE-7D45947E2258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59990E7C-0A04-4441-A291-895FECB2CC27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59990E7C-0A04-4441-A291-895FECB2CC27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59990E7C-0A04-4441-A291-895FECB2CC27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59990E7C-0A04-4441-A291-895FECB2CC27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

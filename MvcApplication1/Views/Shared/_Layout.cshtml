@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="description" content="Materialize is a modern responsive CSS framework based on Material Design by Google. ">
+    <title>Fullscreen Slider - Materialize</title>
+    <!-- Favicons-->
+    <link rel="apple-touch-icon-precomposed" href="~/Content/images/favicon/apple-touch-icon-152x152.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="~/Content/images/favicon/mstile-144x144.png">
+    <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
+    <!--  Android 5 Chrome Color-->
+    <meta name="theme-color" content="#EE6E73">
+    <!-- CSS-->
+    <link href="~/Content/css/materialize.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/css/exzeology.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,800,700,500' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script>
+        if (!window.jQuery) {
+            document.write('<script src="bin/jquery-2.1.1.min.js"><\/script>');
+        }
+    </script>
+    <script src="~/Content/scriptsdev/materialize.js"></script>
+    <script src="~/Content/scripts/init.js"></script>
+    <div id="body">
+        @RenderBody()
+    </div>
+
+    @*@Scripts.Render("~/bundles/jquery")*@
+    @*@RenderSection("scripts", required: false)*@
+
+
+    <script>
+    $(document).ready(function () {
+        $('ul.tabs').tabs('select_tab', 'tab_id');
+    });
+    </script>
+</body>
+</html>

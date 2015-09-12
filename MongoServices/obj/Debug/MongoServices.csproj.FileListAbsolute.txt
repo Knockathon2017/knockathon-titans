@@ -1,0 +1,7 @@
+C:\HealthyIndia\MongoServices\obj\Debug\MongoServices.csprojResolveAssemblyReference.cache
+C:\HealthyIndia\MongoServices\bin\Debug\MongoServices.dll
+C:\HealthyIndia\MongoServices\bin\Debug\MongoServices.pdb
+C:\HealthyIndia\MongoServices\bin\Debug\MongoDB.Bson.dll
+C:\HealthyIndia\MongoServices\bin\Debug\MongoDB.Driver.dll
+C:\HealthyIndia\MongoServices\obj\Debug\MongoServices.dll
+C:\HealthyIndia\MongoServices\obj\Debug\MongoServices.pdb

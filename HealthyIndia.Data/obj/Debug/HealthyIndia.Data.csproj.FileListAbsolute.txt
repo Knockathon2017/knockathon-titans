@@ -1,0 +1,10 @@
+C:\HealthyIndia\HealthyIndia.Data\obj\Debug\HealthyIndia.Data.csprojResolveAssemblyReference.cache
+C:\HealthyIndia\HealthyIndia.Data\bin\Debug\HealthyIndia.Data.dll.config
+C:\HealthyIndia\HealthyIndia.Data\bin\Debug\HealthyIndia.Data.dll
+C:\HealthyIndia\HealthyIndia.Data\bin\Debug\HealthyIndia.Data.pdb
+C:\HealthyIndia\HealthyIndia.Data\bin\Debug\MongoDB.Bson.dll
+C:\HealthyIndia\HealthyIndia.Data\bin\Debug\MongoDB.Driver.dll
+C:\HealthyIndia\HealthyIndia.Data\bin\Debug\MongoServices.dll
+C:\HealthyIndia\HealthyIndia.Data\bin\Debug\MongoServices.pdb
+C:\HealthyIndia\HealthyIndia.Data\obj\Debug\HealthyIndia.Data.dll
+C:\HealthyIndia\HealthyIndia.Data\obj\Debug\HealthyIndia.Data.pdb
